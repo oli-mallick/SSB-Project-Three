@@ -1,0 +1,66 @@
+body{
+	margin: 0;
+}
+header{
+    background-color: whitesmoke;
+    padding: 40px 0px;
+}
+.container{
+	width: 1000px;
+	margin: 0 auto;
+	overflow: hidden;
+}
+.logo{
+    width: 20%;
+    float: left;
+}
+.logo img{}
+nav{
+	width: 80%;
+	float: left;
+}
+nav ul{
+    margin: 0;
+    padding: 0;
+    text-align: right;
+}
+nav ul li{
+    list-style: none;
+    display: inline-block;
+}
+nav ul li a{
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #212121;
+    padding: 5px 20px;
+    display: block;
+}
+
+.banner-section{}
+.banner-section img{
+	width: 100%;
+}
+
+.blog-section{}
+article{
+    padding: 100px;
+}
+article span{
+    text-transform: uppercase;
+    color: #01010150;
+    font-size: 18px;
+}
+article h1{
+	text-transform: capitalize;
+	font-size: 35px;
+	color: #010101a1;
+}
+article p{
+    font-size: 22px;
+    color: #010101a6;
+}
+article a{
+	text-transform: uppercase;
+	color: #01010150;font-size: 18px;
+	text-decoration: none;
+}
